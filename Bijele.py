@@ -1,0 +1,10 @@
+inpt = input()
+inpt = inpt.split(' ')
+output = []
+output.append([1-int(inpt[0])])
+output.append([1-int(inpt[1])])
+output.append([2-int(inpt[2])])
+output.append([2-int(inpt[3])])
+output.append([2-int(inpt[4])])
+output.append([8-int(inpt[5])])
+print(f'{output[0][0]} {output[1][0]} {output[2][0]} {output[3][0]} {output[4][0]} {output[5][0]}')
