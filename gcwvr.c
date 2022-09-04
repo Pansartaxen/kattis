@@ -5,22 +5,19 @@
 int main(void) {
     int gross = 0;
     int truck = 0;
+    int index = 0;
     char first_row[14] = {0};
-    gets(first_row);
+    gets( first_row );
     for(int i = 0; i < sizeof(first_row); i++){
-    if(second_row[i] != ' '){
-        count += cur; //Räknar om den är på gross-vikt eller bilens vikt
-        cur = 0;
+    if(first_row[i] != ' '){
+        index++;
     }
-    else if ('first_row[i]' >= '0' && 'first_row[i]' <= '9')
+    else if (index == 0)
     {
-        cur *= 10;
-        cur += first_row[i];
+        gross *= 10;
+        gross += first_row[i];
     }
-    else
-    {
-        break;
-    }
+}
 
 
     char second_row[400] = {0};
@@ -33,6 +30,7 @@ int main(void) {
             cur = 0;
         }
         else if ('second_row[i]' >= '0' && 'second_row[i]' <= '9')
+        /*Måste få in variabeln i jämförelsen utan att den läses bokstavligt*/
         {
             cur *= 10;
             cur += second_row[i];

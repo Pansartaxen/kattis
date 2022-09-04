@@ -1,5 +1,12 @@
 {
     "typescript.suggest.autoImports": false,
     "javascript.suggest.autoImports": false,
-    "workbench.colorTheme": "One Monokai Python"
+    "workbench.colorTheme": "One Monokai Python",
+    "files.associations": {
+        "__bit_reference": "c",
+        "bitset": "c",
+        "chrono": "c",
+        "unordered_map": "c",
+        "algorithm": "c"
+    }
 }
