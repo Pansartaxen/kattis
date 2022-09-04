@@ -29,7 +29,7 @@ int main(void) {
             count += cur;
             cur = 0;
         }
-        else if ('second_row[i]' >= '0' && 'second_row[i]' <= '9')
+        else if (second_row[i] >= 0 && second_row[i] <= 9)
         /*Måste få in variabeln i jämförelsen utan att den läses bokstavligt*/
         {
             cur *= 10;
