@@ -5,12 +5,12 @@ int main(void) {
     int truck;
     int index;
 
-    //printf("Enter the first row of the array: ");
+    printf("Enter the first row of the array: ");
     scanf("%i %i %i",&gross,&truck,&index);
 
     int cur = 0;
     int sum = 0;
-    //printf("Enter the second row of the array: ");
+    printf("Enter the second row of the array: ");
     for(int i = 0; i < index; i++){
         scanf("%d",&cur);
         sum += cur;
