@@ -7,12 +7,10 @@ int main(void){
     a = (char*)malloc(1000 * sizeof(char));
     scanf("%s" , a);
     int a_found = 0;
-    int index = 0;
     for(int i = 0; i < 1000; i++){
         int ascii_a = (int)a[i];
         if(ascii_a == 'a' && a_found == 0){
             a_found = 1;
-            index = i;
             printf("a");
         }
         else if (a_found == 1){
