@@ -5,7 +5,7 @@ while inpt != '0 0':
     D,V = inpt.split(' ')
     D,V = int(D), int(V)
     x = 2*((math.pi*((D/2)**2)*(D/2))/3)
-    x = x - V 
+    x = x - V
     d = ((x*(4/(math.pi)))**(1/3))
     d = d + 2*d
     print(d)
